@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+div {
+  display: block;
+  position: relative;
+}
+
+#app {
+  background-color: black;
+  width: 320px;
+  height: 380px;
+  padding: 7px;
+}
+
+#display-container {
+  background-color: black;
+  color: white;
+  width: 320px;
+  height: 55px;
+}
+
+#formula-screen {
+  background-color: black;
+  margin: 0px;
+  width: 320px;
+  height: 20px;
+  min-height: 20px;
+  font-family: digital;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p {
+  margin: 0px;
+}
+
+#display {
+  background-color: black;
+  margin: 0px;
+  width: 320px;
+  height: 35px;
+  font-size: 29px;
+  color: white;
+  text-align: right;
+  font-family: digital;
+}
+
+.big-one {
+  position: relative;
+  height: 65px;
+  width: 160px;
+  padding: 1px 6px 1px 6px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: rgb(172, 57, 57);
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+
+.big-one:hover {
+  background: rgb(152, 37, 37);
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: rgb(102, 102, 102);
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+  padding: 1px 6px 1px 6px;
+}
+
+button:hover {
+  background: rgb(92, 92, 92);
+}
+.number {
+  background: #4d4d4d;
+  padding: 1px 6px 1px 6px;
+}
+.number:hover {
+  background: #3d3d3d;
+}
+
+.big-two {
+  background: rgb(0, 68, 102);
+  position: absolute;
+  height: 130px;
+  bottom: 0px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+
+.big-two:hover {
+  background: rgb(0, 48, 82);
+}
